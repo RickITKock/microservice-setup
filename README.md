@@ -8,11 +8,11 @@ This repository contains code so you can start developing a microservice.
 To do so, clone this repository and apply the right permissions to the bash script like so:
 
 ```bash
-chmod 744 microservice-setup.sh
+chmod 744 setup.sh
 ```
 
 Then run the following command:
 
 ```bash
-./microservice-setup.sh
+./setup.sh
 ```

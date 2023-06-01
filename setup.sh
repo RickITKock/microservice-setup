@@ -22,16 +22,12 @@ clone_repos() {
     done
 }
 
-echo 'Run this script to clone all git repositories.'
-echo 'Do you wish to clone all microservice related projects? [y/N]'
+echo 'Do you want to clone all repositories? [y/N]'
 read answer
 
 if [ "$answer" != "${answer#[Yy]}" ] ;then
     echo '\nCloning all repositories...'
     clone_repos
-else
-    echo '\nExiting...'
 fi
-
 
 exit 0
