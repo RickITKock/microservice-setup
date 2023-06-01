@@ -1,8 +1,8 @@
 .vscode
-client
-comments
-event-bus
-infra
-moderation
-posts
-query
+microservice-client
+microservice-comments
+microservice-event-bus
+microservice-infra
+microservice-moderation
+microservice-posts
+microservice-query
