@@ -16,7 +16,7 @@ clone_repos() {
         if [ -d "$dir_name" ]; then
             echo "$dir_name already exists"
         else
-            git clone "git@github.com:RickITKock/$dir_name.git"
+            git clone "git@github.com:RickITKock/$dir_name.git" "$repo"
         fi
         printf '\n'
     done

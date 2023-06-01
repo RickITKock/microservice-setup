@@ -8,11 +8,10 @@
 # Updates all repositories.
 
 update_repos() {
-    prefix=microservice
     repos=(posts client infra comments event-bus moderation query)
 
     for repo in "${repos[@]}"; do
-        dir_name="$prefix-$repo"
+        dir_name="$repo"
         if [ -d "$dir_name" ]; then
             cd "$dir_name"
             git remote update > /dev/null 2>&1
