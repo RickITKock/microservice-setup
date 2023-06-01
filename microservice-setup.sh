@@ -9,14 +9,7 @@
 
 clone_repos() {
     prefix=microservice
-    repos=(
-        posts 
-        client 
-        infra 
-        comments 
-        event-bus 
-        moderation 
-        query)
+    repos=(posts client infra comments event-bus moderation query)
 
     for repo in "${repos[@]}"; do
         dir_name="$prefix-$repo"
@@ -27,8 +20,6 @@ clone_repos() {
         fi
         printf '\n'
     done
-
-    # echo ${repos[@]}
 }
 
 echo 'Run this script to clone all git repositories.'
