@@ -12,7 +12,9 @@ To do so, clone this repository and apply the right permissions to the bash scri
 ```bash
 # Set permissions
 chmod 744 setup.sh
+```
 
+```bash
 # Run the setup script
 ./setup.sh
 ```
@@ -24,7 +26,9 @@ To update all repositories, run the following commands:
 ```bash
 # Set permissions
 chmod 744 update.sh
+```
 
+```bash
 # Run the update script
 ./update.sh
 ```
