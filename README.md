@@ -26,23 +26,21 @@ Installation guide can be be found here. To get it done quickly, you could run t
 kubectl apply -f https://raw.githubusercontent.com/kubernetes/ingress-nginx/controller-v1.8.0/deploy/static/provider/cloud/deploy.yaml
 ```
 
-> **Note about port 80**
->
-> You might have other applications running on port 80. If identified, shut it down. To determine what might be using this port, in your terminal run:
->
-> ```bash
-> # Windows
-> netstat -anb
-> ```
->
-> Or
->
-> ```bash
-> # macOS
-> sudo lsof -i tcp:80
-> ```
->
-> Docker should be running on this port.
+### Note about port 80
+
+You might have other applications running on port 80. If identified, shut it down. To determine what might be using this port, in your terminal run:
+
+```bash
+# Windows
+netstat -anb
+```
+
+```bash
+# macOS
+sudo lsof -i tcp:80
+```
+
+Docker should be running on this port.
 
 4. Tweak Hosts file.
 
