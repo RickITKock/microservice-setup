@@ -12,14 +12,14 @@ Using Docker, you can quickly deploy and scale applications into any environment
 
 2. Within Docker, enable Kubernetes in the settings menu.
 
-Kubernetes is a tool for running a bunch of different containers. We give it some configuration to describe how to run and interact with eachother.
+Kubernetes is a tool for running a bunch of different containers. We give it some configuration to describe how to run and interact with each other.
 we need to create images and deploy them in our Kubernetes cluster.
 
 3. Install Ingress-Nginx Controller.
 
 Ingress-nginx is an open-source Kubernetes Ingress controller that provides load balancing, SSL termination, and name-based virtual hosting for Kubernetes services. Ingress-nginx works by routing incoming traffic to the appropriate service based on the requested URL and other parameters. It can also perform other advanced functions.
 
-Installation guide can be be found here. To get it done quickly, you could run the following command:
+Installation guide can be found here. To get it done quickly, you could run the following command:
 
 ```bash
 # Install the Ingress-Nginx Controller
@@ -44,7 +44,7 @@ Docker should be running on this port.
 
 4. Tweak Hosts file.
 
-Find the hosts file located in your etc directory, and add the following:
+Find the hosts file located in your etc. directory, and add the following:
 
 ```
 127.0.0.1 posts.com
@@ -83,7 +83,7 @@ chmod 744 update.sh
 ./update.sh
 ```
 
-## Runnung the application
+## Running the application
 
 If you've installed everything and cloned/updated all repositories, run the following command to run the project:
 
