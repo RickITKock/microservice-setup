@@ -92,4 +92,4 @@ If you've installed everything and cloned/updated all repositories, run the foll
 skaffold dev
 ```
 
-Finally, open a browser, and go to posts.com to see the result. The page will not automatically refresh the page when you create a new post or comment. So, for now, refresh it manually to see the result.
+Finally, open a browser, and go to posts.com to see the result. The page will not automatically refresh when you create a new post or comment. So, for now, refresh it manually to see the result.
