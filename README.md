@@ -4,7 +4,7 @@
 >
 > This project is the root of the microservice project. It serves as the starting point for development and testing.
 
-## prerequisites
+## Prerequisites
 
 1. Install Docker.
 

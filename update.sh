@@ -37,6 +37,7 @@ read answer
 if [ "$answer" != "${answer#[Yy]}" ] ;then
     echo "Checking for updates in all repositories..."
     update_repos
+    echo "Also be sure to update the current repository you are using by running: git pull"
 fi
 
 exit 0
