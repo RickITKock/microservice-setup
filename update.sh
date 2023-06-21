@@ -7,6 +7,8 @@
 # Description:
 # Updates all repositories.
 
+# TODO: Check for local changes
+
 update_repos() {
     repos=(posts client infra comments event-bus moderation query)
 

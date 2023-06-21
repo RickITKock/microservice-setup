@@ -18,12 +18,12 @@ clone_repos() {
         else
             git clone "git@github.com:RickITKock/$dir_name.git" "$repo"
         fi
-        printf '\n'
+        printf '\n'`
     done
 }
 
 echo 'Do you want to clone all repositories? [y/N]'
-read answer
+read answer`
 
 if [ "$answer" != "${answer#[Yy]}" ] ;then
     echo '\nCloning all repositories...'

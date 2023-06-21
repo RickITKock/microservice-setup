@@ -85,10 +85,10 @@ chmod 744 update.sh
 
 ## Running the application
 
-If you've installed everything and cloned/updated all repositories, run the following command to run the project:
+If you've installed everything and cloned/updated all repositories, run the following command to enable continuous local development:
 
 ```bash
-# Run the update script
+# Enable continuous local development
 skaffold dev
 ```
 
